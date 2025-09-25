@@ -1,5 +1,5 @@
 {% set name = "prismatools" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/prismatools-{{ version }}.tar.gz
-  sha256: 0694899863114e197109fb28a27a09d4ea1a69f0b04748b5c71daf008eab767d
+  sha256: 20d7ca9769ac5db771daa8f822e48fe58f328dd737c073e99678b0dc754b6f35
 
 build:
   noarch: python
